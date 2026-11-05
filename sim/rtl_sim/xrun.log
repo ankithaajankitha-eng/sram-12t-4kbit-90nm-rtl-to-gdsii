@@ -1,0 +1,22 @@
+xrun(64): 22.09-s003: (c) Copyright 1995-2022 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	22.09-s003: Started on Nov 05, 2026 at 09:48:26 IST
+xrun
+	sram_all.v
+	tb.v
+	-access +rwc
+	-gui
+xmsim: *W,NOMTDGUI: Multi-Threaded Dumping is disabled for interactive debug mode.
+
+-------------------------------------
+Relinquished control to SimVision...
+xcelium> 
+xcelium> source /home/install/XCELIUM2209/tools/xcelium/files/xmsimrc
+xcelium> database -open waves -into waves.shm -default
+Created default SHM database waves
+xcelium> probe -create -shm tb_sram_4kb.addr tb_sram_4kb.clk tb_sram_4kb.cs tb_sram_4kb.rdata tb_sram_4kb.re tb_sram_4kb.rst_n tb_sram_4kb.rvalid tb_sram_4kb.wdata tb_sram_4kb.we
+Created probe 1
+xcelium> run
+=== TESTBENCH COMPLETE ===
+Simulation complete via $finish(1) at time 125 NS + 0
+./tb.v:48         $finish;
+xcelium> 

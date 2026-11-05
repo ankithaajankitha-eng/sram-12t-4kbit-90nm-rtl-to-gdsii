@@ -1,0 +1,34 @@
+# Cadence tool run-time junk (regenerated on every run)
+xcelium.d/
+waves.shm/
+cov_work/
+.simvision/
+*.lock
+*.history
+*.key
+.rs_*.tstamp
+*.uilog
+*.uilog.bak
+pvsUI_ipvs.log
+innovus.cmd[0-9]*
+innovus.logv*
+genus.cmd[0-9]*
+*.enc.dat/
+*.pak
+power.db
+.top.power*.db
+cellIDMap
+*.ptiavg
+
+# Licensed foundry / library files - do not publish
+*.lib
+*.lef
+*.tch
+*.CapTbl
+slow.v
+fast.v
+
+# Editor / OS
+*~
+.DS_Store
+Thumbs.db
